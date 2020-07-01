@@ -11,8 +11,8 @@ const insertSampleListings = function() {
 
 const insertSampleBookings = function() {
   for (var i = 1; i < 101; i ++) {
-      db.query(`insert into bookings (bookingName, arrive, depart, groupsize, subtotal, listingID) values ("${faker.name.firstName() + ' ' + faker.name.lastName()}", "${faker.date.between('2020-07-04', '2020-07-06')}"
-      , "${faker.date.between('2020-07-09', '2020-07-11')}", ${Math.floor(Math.random() * (8 - 1)) + 1}, ${Math.floor(Math.random() * (1000 - 50)) + 50}, ${i})`)
+      db.query(`insert into bookings (bookingName, arrive, depart, groupsize, subtotal, listingID) values ("${faker.name.firstName() + ' ' + faker.name.lastName()}", "${faker.date.between('2020-07-01', '2020-07-03')}"
+      , "${faker.date.between('2020-07-03', '2020-07-05')}", ${Math.floor(Math.random() * (8 - 1)) + 1}, ${Math.floor(Math.random() * (1000 - 50)) + 50}, ${i})`)
       .then(() => db.close());
       }
 }

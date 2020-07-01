@@ -4,7 +4,7 @@ Booking module for making reservation
 ## initial setup
 Run these commands in order
 1. npm install
-2. npm run mysql (password set to 'root' in package.json script)
+2. npm run mysql
 3. npm run db:setup
 
 ## launching

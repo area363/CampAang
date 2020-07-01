@@ -80,7 +80,7 @@ class BookingApp extends React.Component {
             subtotal: c,
             loading: false
           });
-        }, 500));
+        }, 100));
     }
   }
 
@@ -117,7 +117,7 @@ class BookingApp extends React.Component {
         subtotal: c,
         loading: false
       });
-    }, 500);
+    }, 100);
   }
   handleCheckoutChange(date) {
     document.getElementsByClassName('react-datepicker-ignore-onclickoutside')[0].className='';
@@ -135,7 +135,7 @@ class BookingApp extends React.Component {
         subtotal: c,
         loading: false
       });
-    }, 500);
+    }, 100);
   }
 
   handleGuestChange(e) {
@@ -152,7 +152,7 @@ class BookingApp extends React.Component {
         subtotal: c,
         loading: false
       });
-    }, 500);
+    }, 100);
   }
 
   handleBooking() {

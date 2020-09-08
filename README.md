@@ -13,9 +13,9 @@ Run these commands in order
 2. npm run start
 
 ## demo
+### CampAang Main Screenshot
 ![CampAang Main](demo/CampAang.png)
-CampAang Main Screenshot
 
+### Booking Module
 ![Booking Module Demo](demo/Demo.gif)
-Booking Module
 

@@ -19,3 +19,6 @@ Run these commands in order
 ### Booking Module
 ![Booking Module Demo](demo/Demo.gif)
 
+## full project reference
+
+[CampAang](https://github.com/hrr46-fec-aang): Web application for campsite browsing and booking
